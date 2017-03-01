@@ -23,7 +23,7 @@ import java.util.Date;
 public class WeatherController {
     @Autowired
     private ChatUserRepo chatUserRepo;
-    @RequestMapping(path = "/forecast", method = RequestMethod.POST)
+    @RequestMapping(path = "/secure/forecast", method = RequestMethod.POST)
     public String getWeather(HttpSession session, Model model,
                              @RequestParam(required = false) String latitude,
                              @RequestParam(required = false) String longitude) {

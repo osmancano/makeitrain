@@ -66,7 +66,7 @@
                 <li ><a href="#" onclick="document.getElementById('loc').submit(); return false;"><i class="fa fa-location-arrow"></i></a></li>
             </ul>
 
-            <form class="navbar-form navbar-left" id="loc" name="loc" method="post" action="/forecast">
+            <form class="navbar-form navbar-left" id="loc" name="loc" method="post" action="/secure/forecast">
                 <div class="form-group">
                     <input type="text" class="form-control" required id="latitude" name="latitude" placeholder="Latitude">
                     <input type="text" class="form-control" required id="longitude" name="longitude" placeholder="Longitude">
